@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegistrationMenger", "RegistrationMenger\RegistrationMenger.csproj", "{AED01160-0CEF-48A2-B39D-1B75BDF98013}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupRegistrationMenger", "SetupRegistrationMenger\SetupRegistrationMenger.vdproj", "{C749557B-1AEB-4C9C-90A9-AFC0C2255540}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AED01160-0CEF-48A2-B39D-1B75BDF98013}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AED01160-0CEF-48A2-B39D-1B75BDF98013}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AED01160-0CEF-48A2-B39D-1B75BDF98013}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AED01160-0CEF-48A2-B39D-1B75BDF98013}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C749557B-1AEB-4C9C-90A9-AFC0C2255540}.Debug|Any CPU.ActiveCfg = Debug
+		{C749557B-1AEB-4C9C-90A9-AFC0C2255540}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A0E2B52-7246-42FC-AE79-C540A10AA15F}
+	EndGlobalSection
+EndGlobal
