@@ -5,7 +5,6 @@ using RegistrationMenger.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
-using System.Threading;
 using System.Windows;
 
 namespace RegistrationMenger
@@ -96,7 +95,6 @@ namespace RegistrationMenger
         public ApplicationViewModel()
         {
             db = new ApplicationContext();
-            Thread.Sleep(4000);
             db.Acceptances.Load();
             db.Nomenclatures.Load();
             db.Shipments.Load();
